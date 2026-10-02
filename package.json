@@ -1,0 +1,29 @@
+{
+  "name": "devpulse-cli",
+  "description": "Beautiful GitHub analytics right in your terminal — profile cards, star tables and language breakdowns",
+  "version": "1.2.0",
+  "type": "module",
+  "author": "John Key <https://github.com/johnkey98>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "devpulse": "./bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "github",
+    "analytics",
+    "developer-tools",
+    "terminal",
+    "stats"
+  ],
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  }
+}
